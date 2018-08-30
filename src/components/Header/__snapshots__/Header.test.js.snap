@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header UI should render correctly 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="linkContainer"
+  >
+    <Link
+      className="link"
+      replace={false}
+      to="/"
+    >
+      Album
+    </Link>
+    <Link
+      className="link"
+      replace={false}
+      to="/upload"
+    >
+      Upload Photo
+    </Link>
+  </div>
+  <img
+    alt=""
+    className="logo"
+    src="logo.png"
+  />
+  <div
+    className="loginContainer"
+  >
+    <button
+      className="loadingBtn"
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;

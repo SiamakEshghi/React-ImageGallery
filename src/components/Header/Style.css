@@ -1,0 +1,36 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(190, 121, 71);
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.loadingBtn {
+    background-color: rgb(241, 197, 147);
+    border-color: rgb(233, 138, 30);
+    border-radius: 5px;
+}
+.linkContainer {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.link{
+    color: black;
+    font-size: 12px;
+}

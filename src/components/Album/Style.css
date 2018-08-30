@@ -1,0 +1,51 @@
+.secOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.searchForm {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.searchForm * {
+    border-width: 0px;
+    height: 30px;
+    background: transparent;
+}
+.input {
+    width: 300px;
+}
+.select{
+    margin-right: 10px;
+    border-width: 2px;
+    height: 30px;
+    border-color: rgb(243, 219, 115);
+}
+
+.albumContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .albumContainer img {
+    transition: all 2s;
+  }
+  .albumContainer img:hover {
+    transform: scale(1.1,1.1);
+  }
+  .albumContainer div {
+      width: 200px;
+      height: 200px;
+      margin: 5px;
+  }
+ .loadingContainer {
+     display: flex;
+     justify-content: center;
+ }
+ h2 {
+     margin-left: 10px;
+ }

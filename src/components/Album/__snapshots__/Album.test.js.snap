@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Album UI should render correctly 1`] = `
+<div>
+  <div
+    className="secOne"
+  >
+    <form
+      className="searchForm"
+      onSubmit={[Function]}
+    >
+      <input
+        className="input"
+        name="search"
+        onChange={[Function]}
+        placeholder="Search.."
+        type="text"
+        value=""
+      />
+      <button
+        className="searchBtn"
+        type="submit"
+      >
+        <Ionicon
+          beat={false}
+          color="gray"
+          fontSize="22px"
+          icon="md-search"
+          rotate={false}
+          shake={false}
+          style={Object {}}
+        />
+      </button>
+    </form>
+    <select
+      className="select"
+      defaultValue="all"
+      onChange={[Function]}
+    >
+      <option
+        value="all"
+      >
+        -- Filter --
+      </option>
+      <option
+        value="online"
+      >
+        Pixabay Images
+      </option>
+      <option
+        value="upload"
+      >
+        Uploaded Images
+      </option>
+    </select>
+  </div>
+  <div>
+    <h2>
+      Images
+    </h2>
+    <div
+      className="albumContainer"
+    >
+      <div
+        key="1"
+      >
+        <img
+          onClick={[Function]}
+          src="url1"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
