@@ -8,14 +8,20 @@ export function changeLog(isLogged) {
 
 export function setImageList(query, callback) {
   return dispatch => {
-    a.getImages(query, (success, result, error) => {
-        if(success) {
-             dispatch({ type: t.SET_PHOTO_LIST, data: result.data })
-            callback();
-        } else {
-            console.log(error);
-        }
-      });
+    // a.getImages(query, (success, result, error) => {
+    //     if(success) {
+    //          dispatch({ type: t.SET_PHOTO_LIST, data: result.data })
+    //         callback();
+    //     } else {
+    //         console.log(error);
+    //     }
+    //   });
+    a.getImages(query)
+    .then(data => {
+        dispatch({ type: t.SET_PHOTO_LIST, data: data }); 
+        callback();
+    })
+    .catch(e => console.log(e.message));
   }
 }
 
